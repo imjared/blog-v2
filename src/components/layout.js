@@ -11,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: #F8F8F8;
   }
 `
-
 const TopBorder = styled.span`
   position: fixed;
   z-index: 100;
@@ -59,10 +58,6 @@ class Layout extends React.Component {
     return (
       <>
         <GlobalStyle />
-        <Helmet>
-          <link href="/static/favicon.png" rel="icon" />
-          <link href="http://fonts.googleapis.com/css?family=Monda|PT+Serif:regular,italic,bold|PT+Sans" rel="stylesheet" type="text/css" />
-        </Helmet>
         <TopBorder />
         <Wrapper>
           <header>{header}</header>
