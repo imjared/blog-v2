@@ -17,7 +17,11 @@ const FooterWrapper = styled.div`
 
   li {
     display: inline-block;
-    margin: 0 0 0  ${rhythm(0.5)};
+    margin: 0;
+
+    &:not(:first-child) {
+      margin-left: ${rhythm(0.5)};
+    }
   }
 
   @media (max-width: 700px) {
