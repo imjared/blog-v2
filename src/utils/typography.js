@@ -6,6 +6,10 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    'blockquote': {
+      'marginLeft': 0,
+      'borderLeft': '4px solid rgba(170, 170, 170, 0.5)',
+    }
   }
 }
 

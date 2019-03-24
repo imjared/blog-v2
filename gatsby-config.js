@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Jared's Blog`,
+    title: `jared's blog`,
     author: `Jared Laser`,
-    description: `Jared's blog`,
+    description: `jared's blog`,
     siteUrl: `https://blog.jaredlaser.com/`,
     social: {
       twitter: `kylemathews`,
     },
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,6 +22,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/static-pages`,
+        name: "markdown-pages",
       },
     },
     {
@@ -50,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-31946847-1`,
       },
     },
     `gatsby-plugin-feed`,

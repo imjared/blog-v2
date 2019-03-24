@@ -4,8 +4,6 @@ date: "2014-09-04"
 comments: true
 ---
 
-## Background
-
 In the world of ads, apparently it's good to not just run ads but also see how effective they are. Who woulda thought? Google's ad platform is obviously a big one but they're certainly not the only one. In this case, we're getting data from Facebook's ad system, putting it into a CSV, and then uploading it to Google Analytics (GA) so we can run queries against it (or something. See disclaimer).
 
 I started [here](https://developers.google.com/analytics/devguides/platform/cost-data-import) and it really wasn't the most helpful page. Hopefully this walkthrough alleviates some of the pains I had.

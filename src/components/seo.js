@@ -29,6 +29,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 
   return (
     <Helmet
+      defer={false}
       htmlAttributes={{
         lang,
       }}
