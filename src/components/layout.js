@@ -1,7 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled, { createGlobalStyle } from "styled-components"
-import Helmet from "react-helmet"
+import React from "react";
+import { Link } from "gatsby";
+import styled, { createGlobalStyle } from "styled-components";
 
 import Footer from '../components/footer';
 import { rhythm } from "../utils/typography"
