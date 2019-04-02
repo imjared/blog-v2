@@ -9,7 +9,10 @@ Wordpress2016.overrideThemeStyles = () => {
     'blockquote': {
       'marginLeft': 0,
       'borderLeft': '4px solid rgba(170, 170, 170, 0.5)',
-    }
+    },
+    'li': {
+      'marginBottom': 0
+    },
   }
 }
 
